@@ -36,9 +36,9 @@ function setup() {
 
 function draw() {
   background("white");
-  
+  monkey.depth = backGround + 1;
    backGround.velocityX = -3 ;
-    if (backGround.x < 0){
+    if (backGround.x < 100){
       backGround.x = backGround.width/2;
     }
   
